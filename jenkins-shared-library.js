@@ -69,3 +69,8 @@ groovy-lang.org/ //dokumentasi groovy
 //Dan untuk mengirim parameter dalam bentuk list, bisa gunakan [] dimana di dalamnya bisa sebutkan datanya
 //Jika lebih dari satu bisa tambahkan pemisah (,) seperti ["clean","compile","test"]
 baeldung.com/groovy-lists/ //detail list di groovy
+
+//Map Parameter
+//Selain tipe data list, Groovy juga memiliki tipe data Map
+//Tipe data Map sangat cocok digunakan ketika ingin membuat parameter yg kompleks dalam maps yg bisa menyebutkan kata kunci dan nilai datanya
+baeldung.com/groovy-maps/ //details maps di groovy
