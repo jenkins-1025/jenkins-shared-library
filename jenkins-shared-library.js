@@ -44,3 +44,7 @@ groovy-lang.org/ //dokumentasi groovy
 //Saat membuat file Groovy di folder vars, otomatis file tersebut akan menjadi Global Variable yg bisa diakses melalui Jenkinsfile
 //Nama Global Variable akan sama dengan nama filenya, misal jika nama file adalah author.groovy, maka nama variablenya adalah author
 //Semua definisi function, variable, dan class di file tersebut bisa diakses melalui Global Variable
+
+//Function
+//Function bisa ditambahkan di dalam file Groovy di vars, yg nanti otomatis bisa diakses sebagai function di Global Variable
+//Jika membuat function name() di file author.groovy misal, maka otomatis bisa diakses menggunakan author.name()
