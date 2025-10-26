@@ -48,3 +48,8 @@ groovy-lang.org/ //dokumentasi groovy
 //Function
 //Function bisa ditambahkan di dalam file Groovy di vars, yg nanti otomatis bisa diakses sebagai function di Global Variable
 //Jika membuat function name() di file author.groovy misal, maka otomatis bisa diakses menggunakan author.name()
+
+//Default Function
+//Pada groovy juga bisa membuat sebuah Default Function dalam Global Variable
+//Default function adalah function yg diakses secara otomatis ketika memanggil Global Variablenya sebagai function, misal author()
+//Bisa membuat default function dengan nama call() di file Global Variable nya
