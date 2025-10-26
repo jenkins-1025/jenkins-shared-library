@@ -80,3 +80,9 @@ baeldung.com/groovy-maps/ //details maps di groovy
 //Untuk mengambil data di resource bisa menggunakan function di Groovy pipeline bernama libraryResource (lokasi)
 //libraryResource akan mencari file di resources/lokasi yg dicari, contoh: libraryResource("json/person.json) -> akan mengambil dari resource/json/person.json
 //Hasil dari function libraryResource adalah text isi file tersebut
+
+//Declarative Pipeline
+//Shared library mendukung pembuatan pipeline yg mempermudah ketika ingin membuat pipeline di Shared Library
+//Sehingga kode di Jenkinsfile akan semakin mudah, tidak perlu membuat pipeline hanya tinggal panggil function yg terdapat di shared library
+//Bisa juga menambahkan logic di Declarative Pipeline
+//Misal bisa gunakan if else untuk mengeksekusi Declarative Pipeline
