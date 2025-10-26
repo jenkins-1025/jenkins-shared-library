@@ -61,3 +61,11 @@ groovy-lang.org/ //dokumentasi groovy
 //Jika function memiliki parameter, otomatis perlu mengirim data parameter ketika memanggil functionnya
 //Jika sebelumnya dengan Groovy Class di src tidak bisa mengakses pipeline function (echo, dll), maka dgn Global Variable di vars bisa
 //Makanya direkomendasikan menggunakan Global Variable jika membuat script yg butuh Jenkins Pipeline Library
+
+//List Parameter
+//Parameter di groovy bisa menerima lebih dari satu parameter
+//Kadang dibutuhkan mengirim data parameter yang tidak menentu jumlahnya, pada kasus ini bisa menggunakan tipe data list
+//List di groovy adalah tipe data yg bisa digunakan untuk menampung banyak data dalam satu variable/parameter
+//Dan untuk mengirim parameter dalam bentuk list, bisa gunakan [] dimana di dalamnya bisa sebutkan datanya
+//Jika lebih dari satu bisa tambahkan pemisah (,) seperti ["clean","compile","test"]
+baeldung.com/groovy-lists/ //detail list di groovy
