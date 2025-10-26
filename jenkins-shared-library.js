@@ -13,3 +13,8 @@
 //resource: berisi file yg bukan berisi kode program, misal text, json, gambar, dan lain lain
 //src: berisi class kode program Groovy
 //vars: berisi file groovy
+
+//Registrasi Shared Library
+//Untuk meregistrasikan Shared Library pada jenkins, bisa melalui menu Manage Jenkins -> Configure System/System -> Global Trusted Pipeline Libraries
+//Tambahkan nama project sesuai nama di git repository, masukkan juga repository url by ssh dan credentials nya
+//Jenkins shared library yg diregistrasi bisa lebih dari satu, asal nama project nya tidak sama
