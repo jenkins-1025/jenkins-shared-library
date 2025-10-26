@@ -29,3 +29,9 @@ plugins.jenkins.io/pipeline-groovy-lib/ //secara default ikut terinstall ketika 
 //Saat menggunakan @Library, perlu menyebutkan class Groovy satu per satu jika ingin digunakan
 //kadang ingin import(menggunakan) file groovy di vars secara otomatis tanpa harus import satu per satu
 @Library("nama-shared-library@branch")_ //bisa tambahkan (_) agar file di vars menjadi global variable dan bisa digunakan
+
+//Groovy Class
+//Pada struktur shared library, bisa membuat kode kode groovy class di dalam folder src
+groovy-lang.org/ //dokumentasi groovy
+//Jika groovy class pada vars bisa langsung digunakan, maka di src harus di import di Jenkinsfile terlebih dahulu
+//Pada Groovy Class hanya bisa menggunakan fitur di bahasa pemrograman Groovy, jika sebelumnya menggunakan echo() bawaan pipeline, maka harus diganti println() yg dari groovy
