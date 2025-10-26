@@ -39,3 +39,8 @@ groovy-lang.org/ //dokumentasi groovy
 //Mengakses Steps
 //Jika ingin mengakses Jenkins Pipeline Library dari Groovy Class, bisa kirim object Steps melalui parameter
 //Nanti secara otomatis bisa mengakses jenkins pipeline library melalui parameter tersebut
+
+//Global Variable
+//Saat membuat file Groovy di folder vars, otomatis file tersebut akan menjadi Global Variable yg bisa diakses melalui Jenkinsfile
+//Nama Global Variable akan sama dengan nama filenya, misal jika nama file adalah author.groovy, maka nama variablenya adalah author
+//Semua definisi function, variable, dan class di file tersebut bisa diakses melalui Global Variable
