@@ -35,3 +35,7 @@ plugins.jenkins.io/pipeline-groovy-lib/ //secara default ikut terinstall ketika 
 groovy-lang.org/ //dokumentasi groovy
 //Jika groovy class pada vars bisa langsung digunakan, maka di src harus di import di Jenkinsfile terlebih dahulu
 //Pada Groovy Class hanya bisa menggunakan fitur di bahasa pemrograman Groovy, jika sebelumnya menggunakan echo() bawaan pipeline, maka harus diganti println() yg dari groovy
+
+//Mengakses Steps
+//Jika ingin mengakses Jenkins Pipeline Library dari Groovy Class, bisa kirim object Steps melalui parameter
+//Nanti secara otomatis bisa mengakses jenkins pipeline library melalui parameter tersebut
