@@ -74,3 +74,9 @@ baeldung.com/groovy-lists/ //detail list di groovy
 //Selain tipe data list, Groovy juga memiliki tipe data Map
 //Tipe data Map sangat cocok digunakan ketika ingin membuat parameter yg kompleks dalam maps yg bisa menyebutkan kata kunci dan nilai datanya
 baeldung.com/groovy-maps/ //details maps di groovy
+
+//Library Resource
+//Pada penjelasan awal dijelaskan bahwa folder resources adalah tempat menyimpan data selain script seperti text, json, gambar, dll
+//Untuk mengambil data di resource bisa menggunakan function di Groovy pipeline bernama libraryResource (lokasi)
+//libraryResource akan mencari file di resources/lokasi yg dicari, contoh: libraryResource("json/person.json) -> akan mengambil dari resource/json/person.json
+//Hasil dari function libraryResource adalah text isi file tersebut
