@@ -53,3 +53,11 @@ groovy-lang.org/ //dokumentasi groovy
 //Pada groovy juga bisa membuat sebuah Default Function dalam Global Variable
 //Default function adalah function yg diakses secara otomatis ketika memanggil Global Variablenya sebagai function, misal author()
 //Bisa membuat default function dengan nama call() di file Global Variable nya
+
+//Parameter
+//Sebelumnya sudah mencoba menggunakan parameter di function output
+//Karena function di jenkins pipeline adalah sebuah groovy function, otomatis bisa melakukan layaknya function di Groovy seperti manambahkan parameter
+//Parameter adalah data yg dikirim ke function tersebut, bisa satu atau lebih
+//Jika function memiliki parameter, otomatis perlu mengirim data parameter ketika memanggil functionnya
+//Jika sebelumnya dengan Groovy Class di src tidak bisa mengakses pipeline function (echo, dll), maka dgn Global Variable di vars bisa
+//Makanya direkomendasikan menggunakan Global Variable jika membuat script yg butuh Jenkins Pipeline Library
