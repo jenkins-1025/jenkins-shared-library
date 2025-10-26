@@ -18,3 +18,14 @@
 //Untuk meregistrasikan Shared Library pada jenkins, bisa melalui menu Manage Jenkins -> Configure System/System -> Global Trusted Pipeline Libraries
 //Tambahkan nama project sesuai nama di git repository, masukkan juga repository url by ssh dan credentials nya
 //Jenkins shared library yg diregistrasi bisa lebih dari satu, asal nama project nya tidak sama
+
+//Menggunakan Shared Library
+//Setelah shared library teregistrasi di jenkins, sudah bisa digunakan dengan menggunakan Groovy Pipeline plugin
+plugins.jenkins.io/pipeline-groovy-lib/ //secara default ikut terinstall ketika install jenkins pipeline
+//Untuk menggunakan shared library bisa dengan perintah @Library, misal :
+@Library("nama-shared-library")
+@Library("nama-shared-library@tag")
+@Library("nama-shared-library@branch")
+//Saat menggunakan @Library, perlu menyebutkan class Groovy satu per satu jika ingin digunakan
+//kadang ingin import(menggunakan) file groovy di vars secara otomatis tanpa harus import satu per satu
+@Library("nama-shared-library@branch")_ //bisa tambahkan (_) agar file di vars menjadi global variable dan bisa digunakan
